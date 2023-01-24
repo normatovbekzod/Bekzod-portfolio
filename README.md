@@ -5,3 +5,6 @@ I cleaned and analyzed raw library data occupancy data csv file using R and crea
 
 ## Project 2: Sentiment Analysis of movie reviews using nltk data
 I used text mining together with machine learning techniques to predict whether a movie review is positive or negative. I was able to achieve an accuracy rate of 80.6%
+
+## Project 3: Data visualization of HIV incidence per 100000 in difference regions of Uzbekistan
+I have volunteered at the national AIDS and HIV center in Tashkent, Uzbekistan. Through this expereince I had an opportunity of raising awareness of HIV prevelance in different parts of Uzbekistan and advocate for better transperancy and ananimity of the data on hiv infections. 
