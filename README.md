@@ -21,7 +21,7 @@ In order to process raw data, R was used. Data processing step involvs declaring
 ## Data Analysis and Vizualizations
 Data analysis involved performing a number of EDAs and vizualizing occupancy counts in various sections of the library throughout the day and how some of the metrics such as average occupancy on weekends and weekdays compares to other months. 
 ![](image/total_weekday.PNG)
-![](image/total_weekend.png)
+![](image/total_weekend.PNG)
 
 ## Reporting and Actions
 Main insights and vizualizations are included in a monthly report prepared at the start of following month. This report is saved in the Microsoft word format and shared with the library managers. 
