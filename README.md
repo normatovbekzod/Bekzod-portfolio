@@ -1,6 +1,6 @@
 # Bekzod's Data Analytics Portfolio
 
-# Project 1: Analyzing library data occupancy data
+# Project 1: Analyzing library data occupancy data (https://github.com/normatovbekzod/library_data_analysis)
 I cleaned and analyzed raw library data occupancy data csv file using R and created an excel spreadsheet with important results, which include formatted occupancy data by various spaces in the library in an easy to read format. I then greated visualizations using excel charts.
 
 # Project 2: Sentiment Analysis of movie reviews using nltk data
