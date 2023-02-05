@@ -1,6 +1,20 @@
 Welcome to my Data Analytics Portfolio where I showcase my various projects ranging from my university's library data occupancy analysis to vizualizing HIV incidence data. 
 
 # [Project 1: Analyzing library data occupancy data](https://github.com/normatovbekzod/library_data_analysis)
+## Aim: 
+### Analyze Yale-NUS library occupancy data in order to reveal insights into when the library is the busiest and which sections of the library are under-used.
+## Objectives:
+ - create a data collection method that can be used by students working in the library
+ - clean data using R
+ - prepare data for analysis by exporting it in excel format
+ - analyze occupancy data using excel and R
+ - data vizualizations using excel
+ - a monthly report with key insights and findings
+ - find out which library areas are under-used by analyzing the popularity of each seat (based on occupancy count)
+ 
+## Data collection
+Data was collected hourly during library opening hours by students working in the library by manually filling in the qualtrics form. 
+
 I cleaned and analyzed raw library data occupancy data csv file using R and created an excel spreadsheet with important results, which include formatted occupancy data by various spaces in the library in an easy to read format. I then greated visualizations using excel charts.
 
 # Project 2: Sentiment Analysis of movie reviews using nltk data
