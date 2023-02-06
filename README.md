@@ -34,11 +34,10 @@ At the end of 2021 I was back home in Uzbekistan and was unpleasantly surprised 
 
 # [Project 3: Sentiment Analysis of movie reviews using nltk data](https://github.com/normatovbekzod/movie_reviews)
 The goal of this project is to train a model that would predict whether a given movie review is position or negative.
-
--Dataset was taken from nltk movie reviews dataset
--The dataset was split into training and testing sets
--Algorithm used: K-nearest means, TF-IDFs, Singular Value Decomposition(SVD)
--Accuracy rate achieved: 80.6%
+- Dataset was taken from nltk movie reviews dataset
+- The dataset was split into training and testing sets
+- Algorithm used: K-nearest means, TF-IDFs, Singular Value Decomposition(SVD)
+- Accuracy rate achieved: 80.6%
 
 # [Project 4: Data visualization of HIV incidence per 100000 in difference regions of Uzbekistan](https://github.com/normatovbekzod/hiv_by_uzb_region)
 I have volunteered at the national AIDS and HIV center in Tashkent, Uzbekistan. Through this expereince I had an opportunity of raising awareness of HIV prevelance in different parts of Uzbekistan and advocate for better transperancy and ananimity of the data on hiv infections. 
