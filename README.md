@@ -33,7 +33,12 @@ Main insights and vizualizations are included in a monthly report prepared at th
 At the end of 2021 I was back home in Uzbekistan and was unpleasantly surprised to find out that my family and friends believed that most of the people in the world are not getting vaccinated and it is only the minority that agrees to get one dose of the vaccine let alone both doses. I could see where they were coming from as the vaccination program in Ubekistan was very slowly rolling in. As a result, I wanted to create a dashboard where my family and friends could see how the world is giving into the idea of getting vaccinated by visualizing some metrics and plots such as share of the total population that received one or two doses by country, region. 
 
 # [Project 3: Sentiment Analysis of movie reviews using nltk data](https://github.com/normatovbekzod/movie_reviews)
-I used text mining together with machine learning techniques to predict whether a movie review is positive or negative. I was able to achieve an accuracy rate of 80.6%
+The goal of this project is to train a model that would predict whether a given movie review is position or negative.
+
+-Dataset was taken from nltk movie reviews dataset
+-The dataset was split into training and testing sets
+-Algorithm used: K-nearest means, TF-IDFs, Singular Value Decomposition(SVD)
+-Accuracy rate achieved: 80.6%
 
 # [Project 4: Data visualization of HIV incidence per 100000 in difference regions of Uzbekistan](https://github.com/normatovbekzod/hiv_by_uzb_region)
 I have volunteered at the national AIDS and HIV center in Tashkent, Uzbekistan. Through this expereince I had an opportunity of raising awareness of HIV prevelance in different parts of Uzbekistan and advocate for better transperancy and ananimity of the data on hiv infections. 
