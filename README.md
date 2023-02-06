@@ -18,9 +18,9 @@ Data is collected hourly during library opening hours by students working for th
 ## Data processing
 In order to process raw data, R was used. Data processing step involvs declaring a number of functions that help turn raw data into proper and easily understandable parameters. This step involved handling missing data, checking for outliers, which usually indicated a human error during data collection and checking for duplicates. Processed data was then exported into the excel file.
 
-## Data Analysis and Vizualizations
-Data analysis involved performing a number of EDAs and vizualizing occupancy counts in various sections of the library throughout the day and how some of the metrics such as average occupancy on weekends and weekdays compares to other months. 
-![](image/total_weekday.PNG)
+## Data Analysis and Visualizations
+Data analysis involved performing a number of EDAs and visualizing occupancy counts in various sections of the library throughout the day and how some of the metrics such as average occupancy on weekends and weekdays compares to other months. 
+Below are two examples of such visualizations. 
 <p align="center">
   <img width="600" height="400" src="image/total_weekday.PNG">
   <img width="600" height="400" src="image/total_weekend.PNG">
@@ -36,6 +36,9 @@ I used text mining together with machine learning techniques to predict whether 
 
 # [Project 3: Data visualization of HIV incidence per 100000 in difference regions of Uzbekistan](https://github.com/normatovbekzod/hiv_by_uzb_region)
 I have volunteered at the national AIDS and HIV center in Tashkent, Uzbekistan. Through this expereince I had an opportunity of raising awareness of HIV prevelance in different parts of Uzbekistan and advocate for better transperancy and ananimity of the data on hiv infections. 
-![](image/hiv_by_region_2022.PNG)
+
+<p align="center">
+  <img width="600" height="400" src="image/hiv_by_region_2022.PNG">
+</p>
 
 # [Project 4: Global COVID-19 vaccination tracker](https://public.tableau.com/app/profile/bekzod.normatov/viz/Global_vax_tracker_2021/GlobalVaccineTracker)
