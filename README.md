@@ -43,5 +43,5 @@ The goal of this project is to train a model that would predict whether a given 
 I have volunteered at the national AIDS and HIV center in Tashkent, Uzbekistan. Through this expereince I had an opportunity of raising awareness of HIV prevelance in different parts of Uzbekistan and advocate for better transperancy and ananimity of the data on hiv infections. 
 
 <p align="center">
-  <img width="700" height="400" src="image/hiv_by_region_2022.PNG">
+  <img width="650" height="400" src="image/hiv_by_region_2022.PNG">
 </p>
