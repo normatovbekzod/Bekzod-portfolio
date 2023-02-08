@@ -2,7 +2,7 @@ Welcome to my Data Analytics Portfolio where I showcase my various projects rang
 
 # [Project 1: Analyzing library data occupancy data](https://github.com/normatovbekzod/library_data_analysis)
 ## Aim: 
-### Analyze Yale-NUS library occupancy data in order to reveal insights into when the library is the busiest and which sections of the library are under-used.
+### Develop 6 stages of the Data Analytics Life Cycle with the aim of analyzing Yale-NUS library occupancy data in order to reveal insights into when the library is the busiest and which sections of the library are under-used.
 ## Objectives:
  - create a data collection method that can be used by students working for the library
  - clean data using R
