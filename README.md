@@ -1,4 +1,4 @@
-Welcome to my Data Analytics Portfolio where I showcase my various projects ranging from my university's library data occupancy analysis to visualizing HIV incidence data. 
+Welcome to my Data Analytics Portfolio where I showcase my various projects ranging from my university's library data occupancy analysis to research in applied mathematics on partial differential equations to model waves such as tsunamis.
 
 # [Project 1: Analyzing library data occupancy data](https://github.com/normatovbekzod/library_data_analysis)
 ## Aim: 
