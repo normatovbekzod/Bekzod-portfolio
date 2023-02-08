@@ -39,7 +39,7 @@ The goal of this project is to train a model that would predict whether a given 
 - Algorithm used: K-nearest means, TF-IDFs, Singular Value Decomposition(SVD)
 - Accuracy rate achieved: 80.6%
 
-# [Project 4: Data visualization of HIV incidence per 100000 in different regions of Uzbekistan](https://github.com/normatovbekzod/hiv_by_uzb_region)
+# [Project 4: Data Analysis for the Day Care HIV Centre](https://github.com/normatovbekzod/hiv_by_uzb_region)
 My volunteer experience at the National Day Care Centre for children and families affected by HIV helped me better understand the problems and stigmas HIV individuals face in Uzbekistan. During my time there I have primarily worked with sensitive data involving HIV statistics. My work involved anonymizing any personal data that could reveal or lead to the identity of the individual as well as helping the centre in its advocacy efforts. I have done that by visualizing some metrics such as the one below on the prevalence of HIV in different parts of Uzbekistan. Unfortunately, due to local legal complexities, most of the output of the data analysis involving HIV statistics cannot be shared openly. However, during my time there I continuously tried to push for better data transparency without violating data anonymity. 
 
 <p align="center">
