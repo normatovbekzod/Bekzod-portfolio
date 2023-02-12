@@ -30,7 +30,7 @@ Below are two examples of such visualizations.
 </p>
 
 ## Reporting and Actions
-Main insights and visualizations are included in a monthly report prepared at the start of each month. This report is then shared with the library managers in order to optimize the usage of library spaces. Based on the insight into occupancy levels in various library spaces, I presented solutions to increase the usage of the main 4 library areas by 20% as well as allocate current library student assistants to spaces based on corresponding occupancy level. 
+Main insights and visualizations are included in a monthly report prepared at the start of each month. This report is then shared with the library managers in order to optimize the usage of library spaces. Based on the insight into occupancy levels in various library spaces, I presented solutions to increase the usage of the main 4 library areas by 20% and spearheaded with the guidance of my manager a major reallocation of 30 library student assistants to different shifts based on how busy the library is during a library shift. 
 
 # [Project 2: Global COVID-19 vaccination tracker](https://public.tableau.com/app/profile/bekzod.normatov/viz/Global_vax_tracker_2021/GlobalVaccineTracker)
 ### Motivation
@@ -41,19 +41,21 @@ The majority of people in Uzbekistan have no idea of the success of the vaccinat
 
 ### Solution
 I decided to find a way to visualize the data on vaccination status around the world in an interactive and communicative. I found Tableau to be a great tool for that.
-As a result, I created a dashboard where my family and friends could see how the world is changing and how people are getting vaccinated. I achieved that by visualizing some important metrics as well as the plots such as share of population partially and fully vaccinated by country, or region. 
+As a result, I created a dashboard where my family and friends could see how the world is changing and how people are getting vaccinated. I achieved that by visualizing some important metrics as well as the plots such as share of population partially and fully vaccinated by country, or region. This visualization helped me convince both my parents and my grandmother to get vaccinated. The current version of the dashboard can be accessed here: https://public.tableau.com/app/profile/bekzod.normatov/viz/Global_vax_tracker_2021/GlobalVaccineTracker. 
 
-# [Project 3: Sentiment Analysis of movie reviews using nltk data](https://github.com/normatovbekzod/movie_reviews)
-The goal of this project is to train a model that would predict whether a given movie review is positive or negative.
-- Dataset was taken from nltk movie reviews dataset
-- The dataset was split into training and testing sets
-- Algorithm used: K-nearest means, TF-IDFs, Singular Value Decomposition(SVD)
-- Accuracy rate achieved: 80.6%
-
-# [Project 4: Data Analysis for the Day Care HIV Centre](https://github.com/normatovbekzod/hiv_by_uzb_region)
-My volunteer experience at the National Day Care Centre for children and families affected by HIV helped me better understand the problems and stigmas HIV individuals face in Uzbekistan. During my time there I have primarily worked with sensitive data involving HIV statistics. My work involved anonymizing any personal data that could reveal or lead to the identity of the individual as well as helping the centre in its advocacy efforts. I have done that by visualizing some metrics such as the one below on the prevalence of HIV in different parts of Uzbekistan. Unfortunately, due to local legal complexities, most of the output of the data analysis involving HIV statistics cannot be shared openly. However, during my time there I continuously tried to push for better data transparency without violating data anonymity. 
+# [Project 3: Data Analysis for the Day Care HIV Centre](https://github.com/normatovbekzod/hiv_by_uzb_region)
+My volunteer experience at the National Day Care Centre for children and families affected by HIV helped me better understand the problems and stigmas HIV individuals face in Uzbekistan. During my time there I have primarily worked with sensitive data involving HIV statistics as well as the data of current patients. My work involved encrypting any personal data that could reveal or lead to the identity of the individual as well as helping the centre in its advocacy efforts. I have done that by visualizing some metrics such as the one below on the prevalence of HIV in different parts of Uzbekistan. Unfortunately, due to local legal complexities, most of the output of the data analysis involving HIV statistics cannot be shared openly. 
 
 <p align="center">
   <img width="630" height="400" src="image/hiv_by_region_2022.PNG">
 </p>
 
+Additionally, I led the transition to a paperless data collection pratice in the centre by implementing a reliable and convenient data entry method utilizing google forms. I believe finding the right tools to use for data collection and data analysis is an important part of data analytics. Hence, google forms presented the most intuitive and easy way for the centre to collect data on its patients. Moreover, it was secure as only those with access to the centre's google account could view the data collected. As for me, using google forms allowed for easy access to the CSV data, which I used for further analysis.
+
+# [Project 4: Sentiment Analysis of movie reviews using nltk data](https://github.com/normatovbekzod/movie_reviews)
+I rely on reviews a lot when deciding whether to watch a particular movie. Hence, as part of the Programming for Data Science class, I wanted to train a model to classify movie reviews. The goal of this model is to predict whether a given movie review is positive or negative.
+Some key insights into the project:
+- Dataset was taken from nltk movie reviews dataset
+- The dataset was split into training and testing sets
+- Algorithm used: K-nearest means, TF-IDFs, Singular Value Decomposition(SVD)
+- Accuracy rate achieved: 80.6%
