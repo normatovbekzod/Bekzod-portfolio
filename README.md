@@ -32,12 +32,22 @@ Below are two examples of such visualizations.
 ## Reporting and Actions
 Main insights and visualizations are included in a monthly report prepared at the start of each month. This report is then shared with the library managers in order to optimize the usage of library spaces. Based on the insight into occupancy levels in various library spaces, I presented solutions to increase the usage of the main 4 library areas by 20% and spearheaded with the guidance of my manager a major reallocation of 30 library student assistants to different shifts based on how busy the library is during a library shift. 
 
+# [Project: Machine Learning HIV Classifier Deployment on Render Using Flask](https://github.com/normatovbekzod/hiv_classifier/tree/main)
+In this project, we want to tackle the lack of awareness of the importance of regular testing for HIV especially among the at-risk groups. The main problem that workers at the Republican Centre for the Fight Against AIDS (RCFAA, for short) observed is that most HIV-positive patients only find out about their diagnosis after developing the first symptoms. In the case of at-risk groups, this increases the chance of them passing the virus to another person through sexual intercourse or repeated use of syringes. Hence, there is a lack of preventive awareness of the importance of regular testing especially when the person observes certain behaviors or lifestyles associated with a higher risk of HIV infection. 
+
+Deploying a real-time HIV test predictor can if not solve then at least address all these issues. As such, the goal of this project is to build an HIV test result classifier based on the HIV data from the Republican Centre for the Fight Against AIDS in Tashkent, Uzbekistan, and then deploy it so that the predictor can easily be accessed through a QR code. The project consists of two stages:
+The goal of the classifier is to encourage people who fall into at-risk groups including sex workers and injective drug users to get tested as well as to increase the amount of people getting tested at the annual free HIV testing day. 
+
+### The choice of Render 
+Render is a unified cloud to build and run apps and websites with free SSL, global CDN, private networks, and automatic deploys from Git. Compared to platforms like Heroku, it offers a Free tier for all web services, which makes it the best candidate to host our Flask app. It is relatively straightforward to deploy a Flask app on Render given only a few requirements and its compatibility with Git will allow us to deploy our app seamlessly. 
+Below is an overview of the framework of this project.
+
 # [Project 2: Global COVID-19 vaccination tracker](https://public.tableau.com/app/profile/bekzod.normatov/viz/Global_vax_tracker_2021/GlobalVaccineTracker)
 ### Motivation
 At the end of 2021, I was back home in Uzbekistan and was unpleasantly surprised to find out that my family and friends believed that most of the people in the world are not getting vaccinated and it is only the minority that agrees to get one dose of the vaccine let alone both doses. I could see where they were coming from as the vaccination program in Uzbekistan was slowly rolling in. Hence, I identified a problem of the lack of information.
 
 ### Problem
-The majority of people in Uzbekistan have no idea of the success of the vaccination program in other countries of the world as well as on the growing number of people getting vaccinated in Uzbeksitan alone.
+The majority of people in Uzbekistan have no idea of the success of the vaccination program in other countries of the world as well as on the growing number of people getting vaccinated in Uzbekistan alone.
 
 ### Solution
 I decided to find a way to visualize the data on vaccination status around the world in an interactive and communicative. I found Tableau to be a great tool for that.
