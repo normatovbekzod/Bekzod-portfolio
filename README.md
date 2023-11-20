@@ -1,6 +1,6 @@
 Welcome to my Data Analytics Portfolio where I showcase my various projects ranging from my university's library data occupancy analysis to research in applied mathematics on partial differential equations to model waves such as tsunamis.
 
-# [Project 1: Analyzing library data occupancy data](https://github.com/normatovbekzod/library_data_analysis)
+# [Project 1. Analyzing library data occupancy data](https://github.com/normatovbekzod/library_data_analysis)
 ## Aim: 
 ### Develop 6 stages of the Data Analytics Life Cycle with the aim of analyzing Yale-NUS library occupancy data in order to reveal insights into when the library is the busiest and which sections of the library are under-used.
 ## Objectives:
@@ -32,7 +32,7 @@ Below are two examples of such visualizations.
 ## Reporting and Actions
 Main insights and visualizations are included in a monthly report prepared at the start of each month. This report is then shared with the library managers in order to optimize the usage of library spaces. Based on the insight into occupancy levels in various library spaces, I presented solutions to increase the usage of the main 4 library areas by 20% and spearheaded with the guidance of my manager a major reallocation of 30 library student assistants to different shifts based on how busy the library is during a library shift. 
 
-# [Project: Machine Learning HIV Classifier Deployment on Render Using Flask](https://github.com/normatovbekzod/hiv_classifier/tree/main)
+# [Project 2. End-to-end Machine Learning HIV Classifier Project with Deployment on Render Using Flask](https://github.com/normatovbekzod/hiv_classifier/tree/main)
 In this project, we want to tackle the lack of awareness of the importance of regular testing for HIV especially among the at-risk groups. The main problem that workers at the Republican Centre for the Fight Against AIDS (RCFAA, for short) observed is that most HIV-positive patients only find out about their diagnosis after developing the first symptoms. In the case of at-risk groups, this increases the chance of them passing the virus to another person through sexual intercourse or repeated use of syringes. Hence, there is a lack of preventive awareness of the importance of regular testing especially when the person observes certain behaviors or lifestyles associated with a higher risk of HIV infection. 
 
 Deploying a real-time HIV test predictor can if not solve then at least address all these issues. As such, the goal of this project is to build an HIV test result classifier based on the HIV data from the Republican Centre for the Fight Against AIDS in Tashkent, Uzbekistan, and then deploy it so that the predictor can easily be accessed through a QR code. The project consists of two stages:
@@ -45,7 +45,16 @@ Below is an overview of the framework of this project.
   <img width="625" height="400" src="image/framework.png">
 </p>
 
-# [Project 2: Global COVID-19 vaccination tracker](https://public.tableau.com/app/profile/bekzod.normatov/viz/Global_vax_tracker_2021/GlobalVaccineTracker)
+## Stage 1. Training an HIV test result classifier
+
+We have preprocessed HIV data coming from the RCFAA itself that includes 9978 test results of the people tested at the Centre. Our aim is to clean the data, transform it, and train a model using cross-validation as well as do a grid search for each model type including Logistic Regression, Decision Tree, and Random Forest. It is of utmost importance to use cross-validation while optimizing for the best hyperparameters in order not to avoid overfitting. We then compare the best model of each type by plotting ROC curves and comparing AUC scores for each model. It is important to understand that we aim to get as high of a recall as possible because our model should be able to predict HIV-positive test results for as many actual positive test results in the dataset as possible. However, at the same time, we do not want to compromise the performance of the model by prioritizing recall alone, which might result in too many false positives. Hence, while our aim is to get the highest recall possible, we also should aim for a high AUC score in order to maintain excellent model performance. So, we aim to have a good balance between a high AUC score and a high recall. We do that by optimizing for both recall score and roc auc score during grid search and then comparing the best models. 
+
+## Stage 2. Deploying the model on Render using Flask app
+
+The output is a web app in the form of a survey with 14 questions. By providing necessary inputs, i.e. answers to the questions, the user can get a real-time prediction of their risk of being HIV positive by clicking "Predict" button. The app can be accessed through the following link: https://hiv-test-survey.onrender.com/
+The webpage with the user's information provided then send the inputs to the Flask app, which transforms them into an input of the classifier. The classifier then spits out a prediction, which is then displayed on a new web page.
+
+# [Project 3. Global COVID-19 vaccination tracker](https://public.tableau.com/app/profile/bekzod.normatov/viz/Global_vax_tracker_2021/GlobalVaccineTracker)
 ### Motivation
 At the end of 2021, I was back home in Uzbekistan and was unpleasantly surprised to find out that my family and friends believed that most of the people in the world are not getting vaccinated and it is only the minority that agrees to get one dose of the vaccine let alone both doses. I could see where they were coming from as the vaccination program in Uzbekistan was slowly rolling in. Hence, I identified a problem of the lack of information.
 
@@ -56,7 +65,7 @@ The majority of people in Uzbekistan have no idea of the success of the vaccinat
 I decided to find a way to visualize the data on vaccination status around the world in an interactive and communicative. I found Tableau to be a great tool for that.
 As a result, I created a dashboard where my family and friends could see how the world is changing and how people are getting vaccinated. I achieved that by visualizing some important metrics as well as the plots such as share of population partially and fully vaccinated by country, or region. This visualization helped me convince both my parents and my grandmother to get vaccinated. The current version of the dashboard can be accessed here: https://public.tableau.com/app/profile/bekzod.normatov/viz/Global_vax_tracker_2021/GlobalVaccineTracker. 
 
-# [Project 3: Data Analysis for the Day Care HIV Centre](https://github.com/normatovbekzod/hiv_by_uzb_region)
+# [Project 4. Data Analysis for the Day Care HIV Centre](https://github.com/normatovbekzod/hiv_by_uzb_region)
 My volunteer experience at the National Day Care Centre for children and families affected by HIV helped me better understand the problems and stigmas HIV individuals face in Uzbekistan. During my time there I have primarily worked with sensitive data involving HIV statistics as well as the data of current patients. My work involved encrypting any personal data that could reveal or lead to the identity of the individual as well as helping the centre in its advocacy efforts. I have done that by visualizing some metrics such as the one below on the prevalence of HIV in different parts of Uzbekistan. Unfortunately, due to local legal complexities, most of the output of the data analysis involving HIV statistics cannot be shared openly. 
 
 <p align="center">
@@ -65,7 +74,7 @@ My volunteer experience at the National Day Care Centre for children and familie
 
 Additionally, I led the transition to a paperless data collection pratice in the centre by implementing a reliable and convenient data entry method utilizing google forms. I believe finding the right tools to use for data collection and data analysis is an important part of data analytics. Hence, google forms presented the most intuitive and easy way for the centre to collect data on its patients. Moreover, it was secure as only those with access to the centre's google account could view the data collected. As for me, using google forms allowed for easy access to the CSV data, which I used for further analysis.
 
-# [Project 4: Database Implementation](https://github.com/normatovbekzod/Database_system) 
+# [Project 5. Database Implementation](https://github.com/normatovbekzod/Database_system) 
 ## Problem: 
 A car rental company Smiles needs a database software to manage all its data on clients, vehicles, staff and rental contracts. The resoning is that with the growth of its business and the number of its outlets, there has been poor data management and poor data flow between its branches.
 
@@ -76,7 +85,7 @@ Below is the Entity Relation Diagram fo the database we implement.
 
 <img src="image/erd.png">
 
-# [Project 5: Sentiment Analysis of movie reviews using nltk data](https://github.com/normatovbekzod/movie_reviews)
+# [Project 6. Sentiment Analysis of movie reviews using nltk data](https://github.com/normatovbekzod/movie_reviews)
 I rely on reviews a lot when deciding whether to watch a particular movie. Hence, as part of the Programming for Data Science class, I wanted to train a model to classify movie reviews. The goal of this model is to predict whether a given movie review is positive or negative.
 Some key insights into the project:
 - Dataset was taken from nltk movie reviews dataset
