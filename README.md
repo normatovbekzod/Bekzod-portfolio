@@ -41,6 +41,9 @@ The goal of the classifier is to encourage people who fall into at-risk groups i
 ### The choice of Render 
 Render is a unified cloud to build and run apps and websites with free SSL, global CDN, private networks, and automatic deploys from Git. Compared to platforms like Heroku, it offers a Free tier for all web services, which makes it the best candidate to host our Flask app. It is relatively straightforward to deploy a Flask app on Render given only a few requirements and its compatibility with Git will allow us to deploy our app seamlessly. 
 Below is an overview of the framework of this project.
+<p align="center">
+  <img src="image/project_flow.PNG">
+</p>
 
 # [Project 2: Global COVID-19 vaccination tracker](https://public.tableau.com/app/profile/bekzod.normatov/viz/Global_vax_tracker_2021/GlobalVaccineTracker)
 ### Motivation
