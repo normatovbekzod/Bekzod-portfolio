@@ -51,8 +51,7 @@ We have preprocessed HIV data coming from the RCFAA itself that includes 9978 te
 
 ## Stage 2. Deploying the model on Render using Flask app
 
-The output is a web app in the form of a survey with 14 questions. By providing necessary inputs, i.e. answers to the questions, the user can get a real-time prediction of their risk of being HIV positive by clicking the "Predict" button. The app can be accessed through the following link: https://hiv-test-survey.onrender.com/
-You can also access it [here](https://hiv-test-survey.onrender.com/).
+The output is a web app in the form of a survey with 14 questions. By providing necessary inputs, i.e. answers to the questions, the user can get a real-time prediction of their risk of being HIV positive by clicking the "Predict" button. The app can be accessed through [here](https://hiv-test-survey.onrender.com/) Note: since the end of the project we downgraded to a free tier on Render, in which web services automatically spun down after 15 minutes of inactivity. When you click on the link, Render spins it up again so it can process the request and this can cause a response delay of up to 30 seconds.
 
 After the user inputs answers to 14 questions asked of them, the webpage then sends these inputs to the Flask app, which transforms them into a valid input for the classifier. The classifier then spits out a prediction, which is then displayed on a new web page for the user to see and take further action. There is also a picture that indicates where and when the user can get tested for HIV for free.
 
