@@ -1,4 +1,4 @@
-Welcome to my Data Analytics Portfolio where I showcase my various projects ranging from my university's library data occupancy analysis to research in applied mathematics on partial differential equations to model waves such as tsunamis.
+Welcome to my Data Analytics Portfolio where I showcase my various projects that all incorporate certain aspects of data analysis ranging from end-to-end machine learning classifier deployment to SQL database creation. Each and every project in this Portfolio emphasizes various Data Analytics skills I have developed with passion and persistence. I look forward to discussing these projects with you. Feel free to email me at bekzod@u.yale-nus.edu.sg or contact me through WhatsApp at 97159500.
 
 # [Project 1. Analyzing library data occupancy data](https://github.com/normatovbekzod/library_data_analysis)
 ## Aim: 
