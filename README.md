@@ -51,7 +51,8 @@ We have preprocessed HIV data coming from the RCFAA itself that includes 9978 te
 
 ## Stage 2. Deploying the model on Render using Flask app
 
-The output is a web app in the form of a survey with 14 questions. By providing necessary inputs, i.e. answers to the questions, the user can get a real-time prediction of their risk of being HIV positive by clicking "Predict" button. The app can be accessed through the following link: https://hiv-test-survey.onrender.com/
+The output is a web app in the form of a survey with 14 questions. By providing necessary inputs, i.e. answers to the questions, the user can get a real-time prediction of their risk of being HIV positive by clicking the "Predict" button. The app can be accessed through the following link: https://hiv-test-survey.onrender.com/
+
 The webpage with the user's information provided then send the inputs to the Flask app, which transforms them into an input of the classifier. The classifier then spits out a prediction, which is then displayed on a new web page.
 
 # [Project 3. Global COVID-19 vaccination tracker](https://public.tableau.com/app/profile/bekzod.normatov/viz/Global_vax_tracker_2021/GlobalVaccineTracker)
